@@ -1,7 +1,4 @@
-document.getElementById("button").onclick = function() {
+var userName = prompt();
 
-    document.getElementById("confirm").innerHTML = "order placed. Check email for confirmation";
-
-    document.getElementById("button").style.display = "none";
-
-}
+//This is a comment
+console.log(userName);
